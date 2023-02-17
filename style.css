@@ -1,0 +1,50 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGDWFGecH6b78JhGbv653t7LZUGuYC29nELA&usqp=CAU');
+    font-family: sans-serif;
+}
+.heading{
+    background-color: rgba(var(--bs-secondary-bg-rgb), .5);
+    margin-top: 40px;
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-style: outset;
+}
+.inpdiv{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    height: 50px;
+    width: 400px;
+}
+.inp{
+    font-size: x-large;
+}
+.display{
+    margin: 20px;
+    height: 300px;
+    width: 800px;
+    background-color: rgba(var(--bs-secondary-bg-rgb), .5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: x-large;
+    text-align: center;
+}
+.outerdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+}
